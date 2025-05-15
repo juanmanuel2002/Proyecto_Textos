@@ -264,4 +264,4 @@ for archivo, conclusion in zip(conclusiones_por_archivo.keys(), conclusiones_tra
 #graficar_heatmap_comparacion(comparacion_palabras)
 
 # Exportar la tabla a un archivo CSV
-#exportar_tabla_comparacion_a_csv(comparacion_palabras)
+exportar_tabla_comparacion_a_csv(comparacion_palabras)
