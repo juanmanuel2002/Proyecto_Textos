@@ -5,8 +5,6 @@ import re
 import nltk
 from nltk.corpus import stopwords
 from transformers import pipeline
-from sklearn.naive_bayes import BernoulliNB
-from sklearn.feature_extraction.text import CountVectorizer
 from transformers import AutoTokenizer
 
 nltk.download("stopwords")
@@ -91,7 +89,7 @@ def analyze_documents(folder_path):
     return summary
 
 # 7. Guardar resultados
-def export_results(results, out_txt="resultado.txt", out_csv="resultado.csv"):
+def export_results(results, out_txt="resultadoNegativo.txt", out_csv="resultadoNegativo.csv"):
     df = pd.DataFrame(results)
     df.to_csv(out_csv, index=False)
     with open(out_txt, "w", encoding="utf-8") as f:
