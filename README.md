@@ -1,4 +1,4 @@
-# Proyecto_Analiss_y_Procesamiento_de_Textos_Inteligente
+# Proyecto_Analisis_y_Procesamiento_de_Textos_Inteligente
 
 ## Análisis de Sentimiento en Documentos de Melanoma
 
