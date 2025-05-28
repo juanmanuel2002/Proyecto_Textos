@@ -115,7 +115,7 @@ def export_results(results, out_txt="resultadoPositivoNegativo.txt", out_csv="re
             f.write("\n" + "-" * 40 + "\n\n")
 
 
-# 🔁 Ejecutar todo
+# Ejecutar todo
 if __name__ == "__main__":
     folder = "./Archivos"
     results = analyze_documents(folder)
