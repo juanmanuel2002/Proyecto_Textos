@@ -15,6 +15,10 @@ El script [`positivosNegativos.py`](positivosNegativos.py) realiza las siguiente
 5. **Cálculo de probabilidades:** Estima la probabilidad de que el contenido sea perjudicial (negativo) o no perjudicial (positivo) usando un enfoque bayesiano.
 6. **Exportación de resultados:** Los resultados se guardan en archivos `resultadoPositivoNegativo.txt` y `resultadoPositivoNegativo.csv`, incluyendo ejemplos de frases negativas y positivas detectadas.
 
+El script [`resultadosNegativos.py`](resultadosNegativos.py) realiza las mismas tareas, solo que se centra solo en causas negativas excluxivamente.
+
+Los resultados se guardan en archivos `resultadoNegativo.txt` y `resultadoNegativo.csv`, incluyendo ejemplos de frases negativas y positivas detectadas.
+
 ## Uso
 
 1. Coloca tus archivos PDF en la carpeta `./Archivos`.
